@@ -1,0 +1,30 @@
+{
+ "dev": {
+  "drug popularity": {
+   "auc_random_split_pct": 79.0,
+   "auc_rare_diseases_pct": 66.1
+  },
+  "borrow from similar diseases": {
+   "auc_random_split_pct": 84.9,
+   "auc_rare_diseases_pct": 63.7
+  },
+  "mechanism paths (drug-gene-pathway-disease)": {
+   "auc_random_split_pct": 82.8,
+   "auc_rare_diseases_pct": 65.2
+  }
+ },
+ "held_out": {
+  "drug popularity": {
+   "auc_random_split_pct": 79.9,
+   "auc_rare_diseases_pct": 66.9
+  },
+  "borrow from similar diseases": {
+   "auc_random_split_pct": 77.4,
+   "auc_rare_diseases_pct": 57.9
+  },
+  "mechanism paths (drug-gene-pathway-disease)": {
+   "auc_random_split_pct": 70.1,
+   "auc_rare_diseases_pct": 56.9
+  }
+ }
+}
